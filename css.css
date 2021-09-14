@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif;
+}
+.fix {
+    position: fixed;
+    width: 100%;
+}
+.navbar {
+    background-color: #242426;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 8vh;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.logo-sub-heading {
+    margin-left: 20px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.links-section {
+    display: flex;
+    border-right: 1px solid gray;
+    height: 8vh;
+}
+.links {
+    color: antiquewhite;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid gray;
+}
+.links:hover {
+    background-color: black;
+}
+.link {
+    margin-left: 10px;
+}
+.quotes-section {
+    background-image: url("images/background\ iamge\ 2.jpg");  
+    background-size: cover;  
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.quotes-heading {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.quotes-paragraph {
+    font-size: 28px;
+    width: 700px;
+    text-align: center;
+    color: blanchedalmond;
+    margin-top: 10px;
+}
+.btn {
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    color: blanchedalmond;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.btn1 {
+    background-color: #47e014;
+}
+.btn2 {
+    background-color: #4b6ce3;
+}
+.frame {
+    height: 90vh;
+    width: 100%;
+    
+}
+.footer{
+    height: 35vh;
+    width: 100%;
+    background-color: #242426;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.table-section {
+    margin-top: 10px;
+    width: 700px;
+}
+table {
+    color: blanchedalmond;
+    margin-left: 40px;
+}
+thead {
+    text-align: left;
+    height: 50px;
+    font-size: 18px
+}
+tbody {
+    color: gray;
+    height: 130px;
+}
+.logo-and-declimer {
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.icon {
+    width: 40%;
+    text-align: right;
+    margin-top: 20px;
+}
+.logos {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.one-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: gray;
+    
+}
+.next-para {
+    margin: 0px;
+    padding-bottom: 20px;
+    color: gray;
+}

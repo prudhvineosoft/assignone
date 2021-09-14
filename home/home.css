@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif;
+}
+.home-bg-container {
+    display: flex;
+    justify-content: center;
+}
+.Home {
+    width: 85%;
+}
+.cards-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card {
+    min-height: 250px;
+    min-width: 30%;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+.card-image {
+    height: 230px;
+    width: 92%;
+    margin-top: 10px;
+}
+.p-logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.card-card {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.sub {
+    text-align: start;
+}
+.card-card-heading {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.card-card-paragraph {
+    font-size: 14px;
+    margin-top: 0px;
+    color: gray;
+}
+.rule {
+    margin-top: 20px;
+}
+.second-card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.second-card {
+    min-height: 100px;
+    min-width: 30%;
+    width: 20%;
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+.p-logo-2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.st-para {
+    font-size: 16PX;
+    color: gray;
+}
+.sub-para {
+    width: 200PX;
+    font-size: 14PX;
+}
+.featured-section {
+    width: 70%;
+}
+.featured-para {
+    margin-top: 25px;
+}
+.texas {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-style: italic;
+    font-size: 22px;
+    color: rgb(192, 180, 180);
+    margin-left: 30px;
+}
+.wooden {
+    font-family: Impact, fantasy;
+    font-size: 26px;
+    margin-left: 30px;
+}
+.vremya {
+    font-family: Courier New, monospace;
+    font-size: 26px;
+    margin-left: 30px;
+}
+.openbooks {
+    font-family: Didot, serif;
+    font-weight: bolder;
+    font-size: 26px;
+    margin-left: 30px;
+    color: gray;
+}
+.twitter {
+    color: gray;
+    font-size: 30px;
+    margin-left: 30px;
+}
